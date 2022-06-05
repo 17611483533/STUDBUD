@@ -89,8 +89,8 @@
   .MainC{
     position: relative;
     background: #f5f5f5;
-    height:100rem;
-    width: calc(100% - 18rem);
+    height:80rem;
+    width: 100rem;
     left: 18rem;
    
   
@@ -359,7 +359,7 @@
   
     border: none;
     border-radius:35px;
-    background-color:#eaeaea;
+    background-color:#e0f7ff;
     color:#0058e6;
     font-size: 0.8rem;
     padding-left:1rem;
@@ -371,7 +371,7 @@
     margin:0rem;
     width:2rem;
     height:2rem;
-    background: #eaeaea;
+    background: #e0f7ff;
     color:#0058e6;
     font-size: 1.1rem;
     border: 0.5rem;  
@@ -524,7 +524,7 @@ font-size: 1.1rem;
     width:30rem;
   }
   .Talist .SmallBox{
-    padding:3rem 1rem;
+    padding:0rem 1rem;
     list-style: none;
     position: relative;
   

@@ -107,6 +107,7 @@ const tasklist = document.getElementById('tasklist');
 
 
 //Pomodoro
+//Double Click the Start Button, And the time counter will start.
 var Timecount = document.getElementById('Timecount');
 var saveTime = document.getElementById('saveTime');
 const startbtn = document.querySelector("startbtn");
