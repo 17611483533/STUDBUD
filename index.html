@@ -11,8 +11,9 @@
 </head>
 
 <body>
+  <!-- Start with left side Nav-->
 <div class = "leftSideNav">
-  
+  <!-- Logo-->
   <div class = "Logo">
     <h3><span class = "LogoSTUD">STUD</span><span class = "LogoBUD"> BUD</span></h3>
   </div>
@@ -55,9 +56,10 @@
 </div>
 
   
-  
+  <!-- Main page-->
 <section class="MainC">
   
+   <!-- Top Nav-->
   <nav class="TopNav">
 
      <h1><span class = Heading>Dashboard</span></h1>
@@ -82,7 +84,7 @@
 
  
 <main>
-
+ <!-- Task Widgets*4-->
       <ul class="box-info1">
                 <li class="TotalBox" >
                   <img src="total.png" alt="total" />
@@ -119,7 +121,7 @@
                 </li>
       </ul>
 
-
+<!-- Dictionary-->
 <div class="Dic">
       <div class="search-box">
        
@@ -127,35 +129,27 @@
       <button id="searchBtn" onclick="wordSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
       
       </div>
-
-
-      
+  
       <div class="result" id="result">
         <div>
-          <p id="word"></p>
+          <p id="word" class="word1"></p>
         </div>
-
-         
 
         <div>
-          <p id="phonetic"></p>
+          <p id="phonetic" class="phonetic"></p>
         </div>
-
-    
+   
  <div>
-          <p id="definition"></p>
+          <p id="definition" class="definition"></p>
         </div>
         
-  <div><p id="synonyms"></p>
+  <div><p id="synonyms" class="synonyms"></p>
         </div>
+     </div>
 
-        
-        
-      </div>
-
-
-      
     </div>
+
+    <!-- Music widget-->
     <audio src="Strangers By Nature.mp3" id="audio"></audio>
 <div class="music" id="music">
    <div class="img">
@@ -182,26 +176,12 @@
 </div>
 
 
-
-
-
 </main>
-
-
-  
-
-
 
 
 </section>
 
-
-  
-
-
-
-
-  
+ 
   <script src="script.js"></script>
 </body>
 

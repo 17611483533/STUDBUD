@@ -16,7 +16,7 @@
     background: #99e6ff;
   
   }  
-  
+  /*This Logo*/
   .leftSideNav .Logo{
     display: flex;
     align-items: center;
@@ -37,7 +37,8 @@
     font-style: italic;
   
   }
-  
+
+  /*This Nav content,dashboard,task,music etc*/
   .leftSideNav .NavContent{
     margin-top:2rem;
    
@@ -84,7 +85,7 @@
     
   }
   
-  /*Go to the main page. First, starting with nav bar on the top.position: relative;之后 改成fixed*/
+  /*Go to the main page. First, starting with nav bar on the top.*/
   .MainC{
     position: relative;
     background: #f5f5f5;
@@ -110,12 +111,13 @@
     padding: 0 20px;
   
   }
+  /*This the Heading of the page, Dashboard, Music, Task etc*/
   .MainC .TopNav .Heading{
     font-weight: 800;
     font-size: 2rem;
     margin-left: 3rem;
   }
-  
+  /*TSearch Bar*/
   .MainC .TopNav .Search{
     margin-left:26rem;
     
@@ -159,7 +161,7 @@
     
     width: 100%;
   }
-  
+  /*Two column of widgets*/
   .MainC main .box-info1 {
       display: inline-block;
       grid-template-columns: repeat(auto-fit, minmax(8.5re, 6.5rem));
@@ -175,7 +177,7 @@
   
   }
   
-  /*这个是第一个全部任务*/
+  /*First widget "Total task"*/
   .MainC main .box-info1 .TotalBox{
     position: relative;
     margin: 1.5rem 1.5rem auto 0rem;
@@ -215,7 +217,7 @@
    
   }
   
-  /*这个是inprogress电灯*/
+ /*second widget "In Progress"*/
   .MainC main .box-info1 li {
     position: relative;
     margin: 1.5rem 1.5rem auto 0rem;
@@ -253,7 +255,7 @@
    
   }
   
-  /*这个是todo 黄色任务*/
+ /*Third widget "To-Do"*/
   .MainC main .box-info2 .TDBox{
     position: relative;
     margin: 1.5rem 1.5rem auto 0rem;
@@ -289,7 +291,7 @@
   
    
   }
-  /*这个是完成绿色任务*/
+ /*Last widget "Completed"*/
   .MainC main .box-info2 .CBox{
     position: relative;
     margin: 1.5rem 1.5rem auto 0rem;
@@ -326,8 +328,8 @@
    
   }
   
-  /*Dictionary Page*/
-  /*Start with */
+  /*Dictionary*/
+
   .MainC main .Dic{
       background-color: #ffffff;
       width: 32rem;
@@ -342,18 +344,18 @@
      display: block;
      
   }
-  
+    /*Start with Search bar */
   .MainC main .Dic .search-box{
    position:relative;
    margin: 0rem auto auto 7rem;
   
     
   }
-  .MainC input[type=text]:hover {
-    box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+  .MainC input[type=search]:hover {
+    box-shadow: 2px 6px 40px rgba(0, 0, 0, .25);
   }
   
-  .MainC main .Dic .search-box input[type=text] {
+  .MainC main .Dic .search-box input[type=search] {
   
     border: none;
     border-radius:35px;
@@ -361,64 +363,60 @@
     color:#0058e6;
     font-size: 0.8rem;
     padding-left:1rem;
+    height:2rem;
+    width:16rem;
   }
   
   .MainC .search-box button {
-    margin:-2rem;
+    margin:0rem;
+    width:2rem;
+    height:2rem;
     background: #e0f7ff;
     color:#0058e6;
     font-size: 1.1rem;
-    border: none;  
+    border: 0.5rem;  
+    border-radius:10px;
   }
   
-  
-  
-  
-  
+   /*Meaning of each word*/
   
   .result {
       position: relative;
+      margin-left:1.5rem;
   }
-  .result h3 {
-      font-size: 30px;
-      color: #1f194c;
-  }
-  .result .word {
+ 
+.word1 {
+    font-size: 1.3rem;
       display: flex;
-      justify-content: space-between;
-      margin-top: 80px;
+      color: #00134e;
+
+      margin-top: 1rem;
   }
-  .result button {
-      background-color: transparent;
-      color: #ae9cff;
-      border: none;
-      outline: none;
-      font-size: 18px;
-  }
-  .result .details {
+  
+  .result .phonetic {
       display: flex;
       gap: 10px;
-      color: #b3b6d4;
-      margin: 5px 0 20px 0;
-      font-size: 14px;
+      color: #00279e;
+      
+      font-size: 1rem;
   }
-  .word-meaning {
-      color: #575a7b;
-  }
-  .word-example {
-      color: #575a7b;
-      font-style: italic;
-      border-left: 5px solid #ae9cff;
-      padding-left: 20px;
-      margin-top: 30px;
-  }
-  .error {
-      margin-top: 80px;
-      text-align: center;
-  }
+  .result .definition {
+    display: flex;
+    gap: 10px;
+    color: #00279e;
+   
+    font-size: 1.2rem;
+}
+.result .synonyms {
+  display: flex;
+  gap: 10px;
+  color: #00279e;
+
+  font-size: 1.2rem;
+}
+ 
   
-  
-  
+  /*Task Page */
   /*Add a New Task Box*/
   .StartaNew{
     background-color: #ffffff;
@@ -487,7 +485,7 @@
   
   }
   
-  /*Task 旁边的task*/
+  /*Task colume*/
   .TaskList{
      background-color: #ffffff;
       width: 34rem;
@@ -538,7 +536,9 @@
     font-size:1.3rem;
     
   }
-  /*Music*/
+
+
+  /*Music Widget*/
   .music{
     position:relative;
     width: 26rem;
@@ -569,6 +569,8 @@
   .artist{
    text-align: center;
   }
+
+    /*Song progress*/
   .music_program{
     position: relative;
     height: 2px;
@@ -581,6 +583,7 @@
     margin-right: auto;
   
   }
+    /*This part may not shown Because There are some problems When I write "progess"code in js, I am so sorry */
   .music_program div{
     height: 100%;
     width: 0%;
@@ -590,7 +593,7 @@
     width: 14rem;
     height: 20px;
     position: relative;
-     margin-top: 5rem;
+    margin-top: 5rem;
     overflow:hide;
     
   
@@ -622,7 +625,9 @@
     font-size:1.4rem;
    
   }
-  /*Timer*/
+
+
+  /*Pomodoro*/
   .containerp{
      position:relative;
       width:29rem;

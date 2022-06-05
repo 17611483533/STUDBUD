@@ -8,12 +8,12 @@ const songArtist = document.getElementById('songArtist');
 const cover = document.getElementById('cover');
 const currentime = document.getElementById('currenttime');
 const duration = document.getElementById('duration');
-
+//Three songs
 const songs = [ 'Easy On Me', 'I Drink Wine', 'Strangers By Nature'];
 const artists = [ 'Adele'];
 const audios =['Easy On Me.mp3', 'I Drink Wine.mp3', 'Strangers By Nature.mp3'];
 const durations = [ '3:36', '5:51', '2:54'];
-
+//Set up the index
 let songIndex = 2;
 let artistIndex = 2;
 let audioIndex = 2;
@@ -25,16 +25,14 @@ function startSong(song){
   songName.innerText = song;
   songArtist.innerText = artists;
   duration.innerText = durations[durationIndex];
-  audio.src = '<song>.mp3';
+  audio.src = '${song}.mp3';
   audio.volume = 0.9;
- 
-  
+
 }
 
-
+//The user clicks the plat button to play music.
 play.addEventListener("click", () =>{
     const letPlay = music.classList.contains("play");
-
     if (letPlay){
         pauseSong();
     }else{
@@ -43,7 +41,8 @@ play.addEventListener("click", () =>{
         }
 
 });
-
+//Button changes when the user clicks
+//Button "play" => "pause"
 function playSong(){
     music.classList.add("play");
     play.querySelector("i.fa-solid").classList.remove("fa-play");
@@ -78,24 +77,9 @@ function nextSong(){
         songIndex = 0; 
     }
          startSong(songs[songIndex]);
-         playSong();
-        
+         playSong();   
     }
 
-
-//下面这一个可以删除
-play.addEventListener("click", () =>{
-    const letPlay = music.classList.contains("play");
-
-    if (letPlay){
-         playSong();
-    }else{
-         pauseSong();
-
-        }
-
-});
-//上面这些可以删除
 prev.addEventListener("click",prevSong);
 next.addEventListener("click",nextSong); 
-//music少progress
+//music-progress
