@@ -395,7 +395,7 @@
   .result .phonetic {
       display: flex;
       gap: 10px;
-      color: #00279e;
+      color: #2b4aa7;
       font-size: 1rem;
   }
   .result .definition {
@@ -498,7 +498,7 @@ font-size: 1.1rem;
       width: 34rem;
       height:40rem;
       position: relative;
-      margin: -47rem auto 3rem 31rem;
+      margin: -51.8rem auto 3rem 32rem;
       padding: 2rem 2rem;  
       border-radius: 13px;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
@@ -638,12 +638,12 @@ font-size: 1.1rem;
   .containerp{
      position:relative;
       width:29rem;
-      height: 23rem;
+      height: 28rem;
       background-color:white;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
       border-radius: 13px;
      margin-top:3rem;
-      padding:1rem 1rem;
+      padding:1rem 2rem;
   }
   
   .timer{ 
@@ -683,7 +683,11 @@ font-size: 1.1rem;
     border-radius : 50px;
   }
   
+  .start:hover{
   
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+    
+    }
   .stop{
     background-color:#ffcc14; 
     border:0; 
@@ -697,6 +701,10 @@ font-size: 1.1rem;
     border-radius : 50px;
   }
   
+.stop:hover {
   
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+    
+    }
   
   
