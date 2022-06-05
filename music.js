@@ -82,4 +82,4 @@ function nextSong(){
 
 prev.addEventListener("click",prevSong);
 next.addEventListener("click",nextSong); 
-//music-progress
+
