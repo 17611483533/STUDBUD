@@ -40,7 +40,6 @@ function addTask(taskDescription, dueDate, weightList) {
   let task = {
     taskDescription,
     dueDate,
-    dateCreated, 
     weightList,
   };
   taskListArray.push(task);
@@ -75,7 +74,7 @@ calButton.style.borderRadius = '15px';
 calButton.style.border='none';
 calButton.style.margin='1rem 1rem 0rem 14.5rem';
   
-  calButton.addEventListener("click", function(event){
+calButton.addEventListener("click", function(event){
     event.preventDefault();
     item2.remove();
     item.remove();
@@ -176,17 +175,13 @@ function wordSearch(){
      if (request.status >= 200 && request.status < 400) {
 
 //Output from the dictionary api
-   word.innerHTML = data[0].word;
-
-   phonetic.innerHTML = data[0].phonetic;
-   
+       word.innerHTML = data[0].word;
+       phonetic.innerHTML = data[0].phonetic;
        definition.innerHTML = data[0].meanings[0].definitions[0].definition;
-
        synonyms.innerHTML = data[0].meanings[0].definitions[0].synonyms;
 //Next Meaning
       
        definition2.innerHTML = data[0].meanings[0].definitions[1].definition;
-
        synonyms2.innerHTML = data[0].meanings[0].definitions[1].synonyms;
        
      }else{
