@@ -359,7 +359,7 @@
   
     border: none;
     border-radius:35px;
-    background-color:#e0f7ff;
+    background-color:#eaeaea;
     color:#0058e6;
     font-size: 0.8rem;
     padding-left:1rem;
@@ -371,7 +371,7 @@
     margin:0rem;
     width:2rem;
     height:2rem;
-    background: #e0f7ff;
+    background: #eaeaea;
     color:#0058e6;
     font-size: 1.1rem;
     border: 0.5rem;  
@@ -389,7 +389,6 @@
     font-size: 1.3rem;
       display: flex;
       color: #00134e;
-
       margin-top: 1rem;
   }
   
@@ -397,22 +396,31 @@
       display: flex;
       gap: 10px;
       color: #00279e;
-      
       font-size: 1rem;
   }
   .result .definition {
     display: flex;
     gap: 10px;
     color: #00279e;
-   
-    font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 .result .synonyms {
   display: flex;
   gap: 10px;
   color: #00279e;
-
-  font-size: 1.2rem;
+font-size: 1.1rem;
+}
+.result .definition2 {
+  display: flex;
+  gap: 10px;
+  color: #00279e;
+ font-size: 1.1rem;
+}
+.result .synonyms2 {
+display: flex;
+gap: 10px;
+color: #00279e;
+font-size: 1.1rem;
 }
  
   
@@ -427,7 +435,6 @@
       padding: 2rem 2rem;  
       border-radius: 13px;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
-  
     display: inline-block;
       grid-template-columns: repeat(auto-fit, minmax(8.5rem, 6.5rem));
   

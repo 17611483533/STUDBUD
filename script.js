@@ -163,6 +163,8 @@ function wordSearch(){
    var phonetic = document.getElementById('phonetic');
    var definition = document.getElementById('definition');
    var SearchWord = document.getElementById('searchBox1').value;
+   var definition2 = document.getElementById('definition2');
+   var synonyms2 = document.getElementById('synonyms2').value;
    
    //online api
    var request = new XMLHttpRequest();
@@ -180,6 +182,11 @@ function wordSearch(){
        definition.innerHTML = data[0].meanings[0].definitions[0].definition;
 
        synonyms.innerHTML = data[0].meanings[0].definitions[0].synonyms;
+//Next Meaning
+      
+       definition2.innerHTML = data[0].meanings[0].definitions[1].definition;
+
+       synonyms2.innerHTML = data[0].meanings[0].definitions[1].synonyms;
        
      }else{
        word.innerHTML = "Error";
