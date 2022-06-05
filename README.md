@@ -30,7 +30,7 @@ Below that is the Music widget, where users can play music directly and switch b
 
 The second one on the left navigation bar is the task page, which users can access by clicking on it. Users can define their own tasks in the Task Add column, and then click &quot;Add&quot;, the added tasks will be displayed in the &quot;Task List&quot; on the right. Users can delete the task at will by clicking &quot;Cancel&quot;. When the user finishes the task, click &quot;Finish&quot; and the task name will turn blue to indicate that it is completed.
 
-Below is the Pomodoro timer, when the user starts the task, they can click on the ![](README4.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](README5.png width="300px")
+Below is the Pomodoro timer, when the user starts the task, they can click on the ![](README4.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](README5.png)
 
 **4.I**** teration**
 
