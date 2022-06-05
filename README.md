@@ -6,7 +6,7 @@ Guanyu Chen
 
 gche9829
 
-**1.Introduction**![](RackMultipart20220605-1-nq84hq_html_2bc9bb3eeccda4ba.png)
+**1.Introduction**![](README1.png)
 
 STUDBUD is a studying management software. The target audience is students who have problems managing their time and it helps students to complete their assignments more efficiently. Better task management helps students avoid turning in their assignments on the due date. It also comes with a Pomodoro timer so that students can complete their assignments more efficiently. STUDBUD includes tasks, Pomodoro timer, dictionary and music functions etc.
 
@@ -24,13 +24,13 @@ First of all, the first interface you open is Dashboard, and on the left side of
 
 Above the main interface is the navigation bar, where users can view their login status, notifications and search bar.
 
-Below the navigation bar is the Dashboard, and the first widget is the tasks, where users can view how many tasks they have, how many they need to complete, and how many they have completed. ![](RackMultipart20220605-1-nq84hq_html_42a762d36aae2d9.png)
+Below the navigation bar is the Dashboard, and the first widget is the tasks, where users can view how many tasks they have, how many they need to complete, and how many they have completed. ![](README2.png)
 
-Below that is the Music widget, where users can play music directly and switch between each song. Next to that is the dictionary widget, where the user can type in a word in the search bar and click the button to get the explanation of the word. ![](RackMultipart20220605-1-nq84hq_html_5e8a881bbeaaa9d9.png)
+Below that is the Music widget, where users can play music directly and switch between each song. Next to that is the dictionary widget, where the user can type in a word in the search bar and click the button to get the explanation of the word. ![](README3.png)
 
 The second one on the left navigation bar is the task page, which users can access by clicking on it. Users can define their own tasks in the Task Add column, and then click &quot;Add&quot;, the added tasks will be displayed in the &quot;Task List&quot; on the right. Users can delete the task at will by clicking &quot;Cancel&quot;. When the user finishes the task, click &quot;Finish&quot; and the task name will turn blue to indicate that it is completed.
 
-Below is the Pomodoro timer, when the user starts the task, they can click on the ![](RackMultipart20220605-1-nq84hq_html_e8c466bf9816de37.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](RackMultipart20220605-1-nq84hq_html_fbcb2022eeb37d56.png)
+Below is the Pomodoro timer, when the user starts the task, they can click on the ![](README4.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](README5.png)
 
 **4.I**** teration**
 
@@ -40,11 +40,11 @@ By showing the application model for the target users and teachers, give feedbac
 
 First, the layout of the main interface was modified. It was changed from horizontal to vertical. According to the user&#39;s behavior, it is more convenient to browse vertically.
 
-Second, the original task list was transferred to the Task page, and the dictionary function was transferred to the main interface. The purpose of doing this is to put the auxiliary ![](RackMultipart20220605-1-nq84hq_html_4e07667205100d72.png) ![](RackMultipart20220605-1-nq84hq_html_9686aa9713a101ed.png) functions together, and then users can use them more easily without switching to a specific page separately. Also, users can browse how many tasks they have.
+Second, the original task list was transferred to the Task page, and the dictionary function was transferred to the main interface. The purpose of doing this is to put the auxiliary ![](README6.png) ![](README7.png) functions together, and then users can use them more easily without switching to a specific page separately. Also, users can browse how many tasks they have.
 
 Third, the original chat function was removed. According to user feedback, students generally do not use the chat function mainly for studying. Usually students use the chat function to discuss things that are not related to their studies. And also, the chat message reminder also affects students&#39; concentration in studying. Therefore, this feature has been removed. In the future, converting the chat feature to a colloquium would be a good option. Like Slack, or posting academic content or questions would be more helpful to students.
 
-**Task page:**![](RackMultipart20220605-1-nq84hq_html_a43b10453db8481f.png) ![](RackMultipart20220605-1-nq84hq_html_b46ece437567b0a7.png)
+**Task page:**![](README8.png) ![](README9.png)
 
 First, I made a major change to the task interface, converting it from a block-by-block task box to a task list. The list can be more clear and concise. If there are more tasks, the original design will increase the time for users to find the tasks. Using task list can be more convenient for users to browse.
 
