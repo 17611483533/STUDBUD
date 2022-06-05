@@ -26,11 +26,11 @@ Above the main interface is the navigation bar, where users can view their login
 
 Below the navigation bar is the Dashboard, and the first widget is the tasks, where users can view how many tasks they have, how many they need to complete, and how many they have completed. ![](README2.png)
 
-Below that is the Music widget, where users can play music directly and switch between each song. Next to that is the dictionary widget, where the user can type in a word in the search bar and click the button to get the explanation of the word. ![](README3.png)
+Below that is the Music widget, where users can play music directly and switch between each song. Next to that is the dictionary widget, where the user can type in a word in the search bar and click the button to get the explanation of the word. 
 
 The second one on the left navigation bar is the task page, which users can access by clicking on it. Users can define their own tasks in the Task Add column, and then click &quot;Add&quot;, the added tasks will be displayed in the &quot;Task List&quot; on the right. Users can delete the task at will by clicking &quot;Cancel&quot;. When the user finishes the task, click &quot;Finish&quot; and the task name will turn blue to indicate that it is completed.
 
-Below is the Pomodoro timer, when the user starts the task, they can click on the ![](README4.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](README5.png)
+Below is the Pomodoro timer, when the user starts the task, they can click on the ![](README4.png) &quot;Start&quot; button and the time will start counting down from 25 minutes. The user can click &quot;Stop&quot; to re-timer. ![](README5.png width="300px")
 
 **4.I**** teration**
 
