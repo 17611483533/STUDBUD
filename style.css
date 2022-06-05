@@ -162,7 +162,7 @@
   
   .MainC main .box-info1 {
       display: inline-block;
-      grid-template-columns: repeat(auto-fit, minmax(8.5re,, 6.5rem));
+      grid-template-columns: repeat(auto-fit, minmax(8.5re, 6.5rem));
   
   
   }
@@ -201,11 +201,12 @@
   
   }
   .MainC main .box-info1 .TotalBox .text h3{
-    color:#3d70d6;;
+    color:#3771e6;;
     font-size: 3rem; 
     margin: 0.8rem auto 3rem 0rem; 
     
   }
+
   .MainC main .box-info1 .TotalBox .text h4{
     font-size: 1rem;
     color: #858585;

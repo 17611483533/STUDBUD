@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDBUD</title>
+  <script src="https://kit.fontawesome.com/94b1c8cedc.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+<div class = "leftSideNav">
+  
+  <div class = "Logo">
+    <h3><span class = "LogoSTUD">STUD</span><span class = "LogoBUD"> BUD</span></h3>
+  </div>
+  
+    <ul class=NavContent>
+      <li>
+        <a href="index.html">
+          <i class="fa-brands fa-flipboard"></i>
+            <span class="NavText">Dashboard</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="Task.html"  class="active">
+          <i class="fa-solid fa-clipboard-list"></i>
+            <span class="NavText">Task</span>
+        </a>
+      </li>
+
+     
+      <li>
+        <a href="">
+          <i class="fa-solid fa-headphones"></i>
+            <span class="NavText">Music</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <i class="fa-solid fa-gear"></i>
+            <span class="NavText">Setting</span>
+        </a>
+      </li>
+
+      <li class="Night">
+        <a href="">
+        <span class="NavText">NightMode</span>
+        </a>
+       </li>
+    </ul>
+</div>
+
+  
+  
+<section class="MainC">
+  
+  <nav class="TopNav">
+
+     <h1><span class = Heading>Task</span></h1>
+    
+    
+      <div class="Search">
+        <form action="">
+          <input type="text" >
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    
+
+    <div class="Notification">
+      <i class="fa-solid fa-bell"></i>                
+    </div>
+
+    <div class="ProfilePic">
+      <img src="profile.jpg" alt="Profile" />
+    </div>
+  </nav>
+
+ 
+<main>
+  <div class="StartaNew">
+  <h5>Add a New Task</h5>   
+<form class="Addtask1" id="Addtask1">
+ 
+      <label for="task">Task Name </label>
+      <input type="text" name="task" id="taskName1">
+
+      <br>
+    <!-- Date input -->
+      <label for="dueDate">Due Date </label>
+      <input type="date" name="dueDate" id="Date1">
+      <br>
+
+
+    <label for="weight">Weighting % </label>
+    <select name="weight" id="Weighting">
+      <option value="">%</option>
+      <option value="50%">50%</option>
+      <option value="40%">40%</option>
+      <option value="30%">30%</option>
+      <option value="25%">25%</option>
+      <option value="20%">20%</option>
+      <option value="15%">15%</option>
+      <option value="10%">10%</option>
+      <option value="5%">5%</option>
+    </select>
+
+    <br>
+
+      <button type="submit">Add</button>
+    </form>
+  
+  </div> 
+  <!-- Timer-->
+ <div  class="containerp">  
+    <div class="timer">
+
+<div class="buttonp">
+<input type="button" class="start" value="Start" id="startbtn" onClick="TimeStart(25 * 60)"></input><input class="stop" type="button" value="Stop" id="stopbtn" ></input></div><div class="time">
+<span type="text" id="Timecount"></span></div>
+
+
+ </div> 
+   </div>
+  
+    
+      
+  
+
+<!-- All of the tasks -->
+<div class="TaskList">
+  <h6>Task List</h6>
+  <ul id="tasklist2" class="Talist">
+    <li class="SmallBox" id="tasklist">
+  
+    </li>
+  
+    </ul>
+  
+</div>
+
+
+
+  
+</main>
+
+
+  
+
+
+
+
+</section>
+
+
+  
+
+
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
