@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDBUD</title>
+  <script src="https://kit.fontawesome.com/94b1c8cedc.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+<div class = "leftSideNav">
+  
+  <div class = "Logo">
+    <h3><span class = "LogoSTUD">STUD</span><span class = "LogoBUD"> BUD</span></h3>
+  </div>
+  
+    <ul class=NavContent>
+      <li>
+        <a href="index.html" class="active">
+          <i class="fa-brands fa-flipboard"></i>
+            <span class="NavText">Dashboard</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="Task.html">
+          <i class="fa-solid fa-clipboard-list"></i>
+            <span class="NavText">Task</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <i class="fa-solid fa-headphones"></i>
+            <span class="NavText">Music</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <i class="fa-solid fa-gear"></i>
+            <span class="NavText">Setting</span>
+        </a>
+      </li>
+
+      <li class="Night">
+        <a href="">
+        <span class="NavText">NightMode</span>
+        </a>
+       </li>
+    </ul>
+</div>
+
+  
+  
+<section class="MainC">
+  
+  <nav class="TopNav">
+
+     <h1><span class = Heading>Dashboard</span></h1>
+    
+    
+      <div class="Search">
+        <form action="">
+          <input type="text" >
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    
+
+    <div class="Notification">
+      <i class="fa-solid fa-bell"></i>                
+    </div>
+
+    <div class="ProfilePic">
+      <img src="profile.jpg" alt="Profile" />
+    </div>
+  </nav>
+
+ 
+<main>
+
+      <ul class="box-info1">
+                <li class="TotalBox" >
+                  <img src="total.png" alt="total" />
+                  <span class="text">
+                        <h3>12</h3>
+                        <h4><p>Total Tasks</p></h4>
+                    </span>
+                </li>
+
+        <li class="IPBox">
+          <img src="inprogress.png" alt="inprogress" />
+                  <span class="text">
+                   <h3>4</h3>
+                        <h4><p>In Progress</p></h4>
+                    </span>
+           
+                </li>
+      </ul>
+    <ul class="box-info2">
+        <li class="TDBox">
+          <img src="todo.png" alt="todo" />
+                  <span class="text">
+                        <h3>3</h3>
+                        <h4><p>To-Do</p></h4>
+                    </span>
+                </li>
+
+        <li class="CBox">
+          <img src="completed.png" alt="completed" />
+                  <span class="text">
+                        <h3>5</h3>
+                        <h4><p>Completed</p></h4>
+                    </span>
+                </li>
+      </ul>
+
+
+<div class="Dic">
+      <div class="search-box">
+       
+          <input type="search" id="searchBox1" name="searchBox" >
+      <button id="searchBtn" onclick="wordSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+      
+      </div>
+
+
+      
+      <div class="result" id="result">
+        <div>
+          <p id="word"></p>
+        </div>
+
+         
+
+        <div>
+          <p id="phonetic"></p>
+        </div>
+
+    
+ <div>
+          <p id="definition"></p>
+        </div>
+        
+  <div><p id="synonyms"></p>
+        </div>
+
+        
+        
+      </div>
+
+
+      
+    </div>
+    <audio src="Strangers By Nature.mp3" id="audio"></audio>
+<div class="music" id="music">
+   <div class="img">
+   <img src="Strangers By Nature.jpg" alt="cover" id="cover" class="cover"/>
+    <p class="song" id="songName">Strangers By Nature</p>
+    <p class="artist" id="songArtist">Adele</p>
+  
+<div class="music_program">
+  <div id="progress"></div>
+</div>
+
+  <div class="time">
+    <p><span id="currenttime">0:00</span><span>/</span><span id="duration">0:00</span></p>
+  </div>
+
+  <div class="music_menu">
+  
+    <button id ="prev" class="action-btn"><i class="fa-solid fa-backward"></i></buttton><button id ="play" class="action-btn action-btn-big"><i class="fa-solid fa-play"></i></button><button id ="next" class="action-btn"><i class="fa-solid fa-forward"></i></button>
+  </div>
+  
+</div>
+
+<script src="music.js"></script>
+</div>
+
+
+
+
+
+</main>
+
+
+  
+
+
+
+
+</section>
+
+
+  
+
+
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

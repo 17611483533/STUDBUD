@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.4s ease;
+  list-style-type: none;
+    
+  }
+  
+  /*Start with Nav Barn on the left side */
+  .leftSideNav{
+    position: fixed;
+    width: 18rem;
+    height: 100%;
+    background: #99e6ff;
+  
+  }  
+  
+  .leftSideNav .Logo{
+    display: flex;
+    align-items: center;
+    margin: 2.5rem;
+  
+  }
+  .leftSideNav .Logo .LogoSTUD{
+    color: #0048bd;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: italic;
+    
+  }
+  .leftSideNav .Logo .LogoBUD{
+   color: #ffffff;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: italic;
+  
+  }
+  
+  .leftSideNav .NavContent{
+    margin-top:2rem;
+   
+    
+  }
+  .leftSideNav .NavContent li{
+    position: relative;
+    list-style: none;
+    height: 4rem;
+  }
+  .leftSideNav .NavContent li a{
+    height: 100%;
+    width: 17rem;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+   
+    
+    
+  }
+  .leftSideNav .NavContent li a.active{
+    background: #ffffff;
+    border-radius: 35px;
+    width: 16rem;
+    margin: 0rem 1rem;
+  }
+  .leftSideNav .NavContent li a:hover{
+    background: #d1eaff;
+    border-radius: 35px;
+    width: 16rem;
+    margin: 0rem 1rem;
+  }
+  .leftSideNav .NavContent li i{
+    color: #002766;
+    font-size: 1.1rem;
+    margin-left:1.7rem;
+    
+  }
+  .leftSideNav .NavContent li a .NavText{
+    color: #002766;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left:1.7rem;
+    
+  }
+  
+  /*Go to the main page. First, starting with nav bar on the top.position: relative;之后 改成fixed*/
+  .MainC{
+    position: relative;
+    background: #f5f5f5;
+    height:100%;
+    width: calc(100% - 18rem);
+    left: 18rem;
+   
+  
+  
+  }
+  
+  .MainC .TopNav{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background: #f5f5f5;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 18rem);
+    left: 18rem;
+    
+    z-index: 100;
+    padding: 0 20px;
+  
+  }
+  .MainC .TopNav .Heading{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+  
+  .MainC .TopNav .Search{
+    margin-left:26rem;
+    
+  }
+  .MainC input[type=text]:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+  }
+  .MainC input[type=text] {
+    padding: 0.6rem 6rem;
+    border: none;
+    border-radius:35px;
+  }
+  .MainC .Search button {
+    margin:-2rem;
+    background: #fafafa;
+    color:#a8a8a8;
+    font-size: 1.1rem;
+    border: none;  
+  }
+  
+  .MainC .Notification i{
+    color: #002766;
+    font-size: 1.1rem;
+    margin: auto 0.1rem auto 1rem;
+    
+  }
+  
+  .MainC .ProfilePic img{
+    width: 3rem;
+    height: auto;
+    margin-left:-1rem;
+    
+  }
+  
+  /*Start with Main content of Dashoard*/
+  
+  main{
+    padding-top:5rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    
+    width: 100%;
+  }
+  
+  .MainC main .box-info1 {
+      display: inline-block;
+      grid-template-columns: repeat(auto-fit, minmax(8.5re,, 6.5rem));
+  
+  
+  }
+  .MainC main .box-info2 {
+   
+     display: inline-block;
+      grid-template-columns: repeat(auto-fit, minmax(8.5rem, 6.5rem));
+  
+  
+  
+  }
+  
+  /*这个是第一个全部任务*/
+  .MainC main .box-info1 .TotalBox{
+    position: relative;
+    margin: 1.5rem 1.5rem auto 0rem;
+    padding: 1rem;
+    background-color: #94b8ff;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    overflow: hidden;
+    height:15rem;
+    width:14rem;
+  
+  }
+  .MainC main .box-info1 .TotalBox:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .23);
+  }
+  .MainC main .box-info1 .TotalBox img{
+  
+    margin-left:2.5rem;
+   
+    width: 9rem;
+    height:auto;
+    margin-top:1rem;
+  
+  }
+  .MainC main .box-info1 .TotalBox .text h3{
+    color:#3d70d6;;
+    font-size: 3rem; 
+    margin: 0.8rem auto 3rem 0rem; 
+    
+  }
+  .MainC main .box-info1 .TotalBox .text h4{
+    font-size: 1rem;
+    color: #858585;
+    margin: -3.7rem auto auto 0rem;
+  
+   
+  }
+  
+  /*这个是inprogress电灯*/
+  .MainC main .box-info1 li {
+    position: relative;
+    margin: 1.5rem 1.5rem auto 0rem;
+    padding: 0.1rem;
+    background-color: #ffaf7a;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+  overflow: hidden;
+    height:6.5rem;
+    width: 14rem;
+    
+  }
+  .MainC main .box-info1 li:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .23);
+  }
+  .MainC main .box-info1 .IPBox img{
+  
+  margin-left:9rem;
+    margin-top:1rem;
+    width: 3rem;
+    height:auto;
+  
+  }
+  .MainC main .box-info1 .IPBox .text h3{
+    color: #dc6809;
+    font-size: 3rem; 
+    margin: -4rem auto 3rem 1rem; 
+    
+  }
+  .MainC main .box-info1 .IPBox .text h4{
+    font-size: 1rem;
+    color: #858585;
+    margin: -4rem auto auto 1rem;
+  
+   
+  }
+  
+  /*这个是todo 黄色任务*/
+  .MainC main .box-info2 .TDBox{
+    position: relative;
+    margin: 1.5rem 1.5rem auto 0rem;
+    padding:1rem;
+    background-color: #ffeca8;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    
+    height:10.75rem;
+    width: 10rem;
+  
+  }
+  .MainC main .box-info2 .TDBox:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .23);
+  }
+  .MainC main .box-info2 .TDBox img{
+    margin-left:3rem;
+    top:-10rem;
+    width: 5rem;
+    height:auto;
+  
+  }
+  .MainC main .box-info2 .TDBox .text h3{
+    color: #e6c10a;
+    font-size: 3rem; 
+    margin: -1.5rem auto 3rem 0rem; 
+    
+  }
+  .MainC main .box-info2 .TDBox .text h4{
+    font-size: 1rem;
+    color: #858585;
+    margin: -3.8rem auto auto 0rem;
+  
+   
+  }
+  /*这个是完成绿色任务*/
+  .MainC main .box-info2 .CBox{
+    position: relative;
+    margin: 1.5rem 1.5rem auto 0rem;
+    padding: 1rem;
+    background-color: #d3f8e1;
+    box-shadow: 5px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    overflow: hidden;
+    height:10.75rem;
+    width: 10rem;
+  }
+  .MainC main .box-info2 .CBox:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .23);
+  }
+  .MainC main .box-info2 .CBox img{
+    margin-left:1.4rem;
+    margin-top:1.4rem;
+    top:1.4rem;
+    width: 6.5rem;
+    height:auto;
+  
+  }
+  .MainC main .box-info2 .CBox .text h3{
+    color:#12ce31;;
+    font-size: 3rem; 
+    margin:-0.5rem auto 3rem 0rem; 
+    
+  }
+  .MainC main .box-info2 .CBox .text h4{
+    font-size: 1rem;
+    color: #858585;
+    margin: -4rem auto auto 0rem;
+  
+   
+  }
+  
+  /*Dictionary Page*/
+  /*Start with */
+  .MainC main .Dic{
+      background-color: #ffffff;
+      width: 32rem;
+      height:60rem;
+      position: relative;
+      margin: -23rem auto 2rem 30rem;
+      padding: 2rem 1rem;  
+      border-radius: 13px;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border:0;
+  
+     display: block;
+     
+  }
+  
+  .MainC main .Dic .search-box{
+   position:relative;
+   margin: 0rem auto auto 7rem;
+  
+    
+  }
+  .MainC input[type=text]:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+  }
+  
+  .MainC main .Dic .search-box input[type=text] {
+  
+    border: none;
+    border-radius:35px;
+    background-color:#e0f7ff;
+    color:#0058e6;
+    font-size: 0.8rem;
+    padding-left:1rem;
+  }
+  
+  .MainC .search-box button {
+    margin:-2rem;
+    background: #e0f7ff;
+    color:#0058e6;
+    font-size: 1.1rem;
+    border: none;  
+  }
+  
+  
+  
+  
+  
+  
+  .result {
+      position: relative;
+  }
+  .result h3 {
+      font-size: 30px;
+      color: #1f194c;
+  }
+  .result .word {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 80px;
+  }
+  .result button {
+      background-color: transparent;
+      color: #ae9cff;
+      border: none;
+      outline: none;
+      font-size: 18px;
+  }
+  .result .details {
+      display: flex;
+      gap: 10px;
+      color: #b3b6d4;
+      margin: 5px 0 20px 0;
+      font-size: 14px;
+  }
+  .word-meaning {
+      color: #575a7b;
+  }
+  .word-example {
+      color: #575a7b;
+      font-style: italic;
+      border-left: 5px solid #ae9cff;
+      padding-left: 20px;
+      margin-top: 30px;
+  }
+  .error {
+      margin-top: 80px;
+      text-align: center;
+  }
+  
+  
+  
+  /*Add a New Task Box*/
+  .StartaNew{
+    background-color: #ffffff;
+      width: 29rem;
+      height:auto;
+      position: relative;
+      margin: 1.5rem auto auto 0rem;
+      padding: 2rem 2rem;  
+      border-radius: 13px;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  
+    display: inline-block;
+      grid-template-columns: repeat(auto-fit, minmax(8.5rem, 6.5rem));
+  
+  }
+  h5{
+    font-size: 1.5rem;
+    text-align: center;
+    
+  }
+  .StartaNew .Addtask1{
+    font-size: 1.1rem;
+    margin-top:1rem;
+    line-height: 3rem;
+  }
+  
+  .StartaNew .Addtask1 input[type=text] {
+     background-color:#e0f7ff;
+    
+    border: none;
+    padding-left:1rem;
+    border-radius:35px;
+  }
+  .StartaNew .Addtask1 input[type=date] {
+     background-color:#e0f7ff;
+    
+    border: none;
+     padding:0.5rem 1rem;
+    border-radius:35px;
+  }
+  select{
+    background-color:#e0f7ff;
+    
+    border: none;
+     padding:0.5rem 1.5rem;
+    border-radius:35px;
+  }
+  .StartaNew .Addtask1 button {
+    background-color:#0084ff;
+    text-align: center;
+    width:7rem;
+    height:2.5rem;
+    border: none;
+    padding:0.5rem 1rem;
+    border-radius:15px;
+  
+    font-size: 1.1rem;
+    color:#ffffff;
+  
+   margin-left:8.5rem; 
+    margin-top:2rem; 
+  }
+  .StartaNew .Addtask1 button:hover{
+  
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .25);
+  
+  }
+  
+  /*Task 旁边的task*/
+  .TaskList{
+     background-color: #ffffff;
+      width: 34rem;
+      height:40rem;
+      position: relative;
+      margin: -47rem auto 3rem 31rem;
+      padding: 2rem 2rem;  
+      border-radius: 13px;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+   
+  }
+  h6{
+    font-size: 1.5rem;
+  
+    
+  }
+  
+  
+  
+  .Talist{
+    position: relative;
+   
+    padding: 1rem;
+    background-color: #ffffff;
+  
+    border-radius: 13px;
+  
+    height:auto;
+    width:30rem;
+  }
+  .Talist .SmallBox{
+    padding:3rem 1rem;
+    list-style: none;
+    position: relative;
+  
+    justify-content: space-between;
+   
+    margin: 1rem auto 1rem auto;
+    
+    background-color: #ffffff;
+  
+    
+  
+  
+    height:auto;
+    width:28rem;
+  
+    font-size:1.3rem;
+    
+  }
+  /*Music*/
+  .music{
+    position:relative;
+    width: 26rem;
+    height: 27rem;
+    background-color:white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    margin-top:-36rem;
+    padding:2rem 2rem;
+  }
+  .cover{
+    width: 10rem;
+    height:auto;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .15);
+    display:block;
+   
+    border-radius: 13px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .song{
+    text-align: center;
+   font-size:1.2rem;
+    margin-top:0.3rem;
+  
+    
+  }
+  .artist{
+   text-align: center;
+  }
+  .music_program{
+    position: relative;
+    height: 2px;
+    width: 14rem;
+    background: black;
+    margin-top: 1rem;
+     display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .music_program div{
+    height: 100%;
+    width: 0%;
+    background:#878787;
+  }
+  .time{
+    width: 14rem;
+    height: 20px;
+    position: relative;
+     margin-top: 5rem;
+    overflow:hide;
+    
+  
+  }
+  .time p{
+  padding-left:2rem;
+  padding-top:12.5rem;
+  }
+  
+  .music_menu{
+    position:relative;
+    width: 14rem;
+    height: auto;
+    background-color:#bfbfbf;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    margin-left:4rem;
+    margin-top: 14rem;
+    padding:1rem 1rem;
+   
+  }
+  
+  .action-btn{
+    color:#292929;
+    background-color:#bfbfbf;
+    border:0;
+    padding:1rem;
+   margin-left:0.6rem;
+    font-size:1.4rem;
+   
+  }
+  /*Timer*/
+  .containerp{
+     position:relative;
+      width:29rem;
+      height: 23rem;
+      background-color:white;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+      border-radius: 13px;
+     margin-top:3rem;
+      padding:1rem 1rem;
+  }
+  
+  .timer{ 
+    color:#0050b8; 
+    font-size:47px; 
+    margin:1rem auto;
+    border: 1rem solid #2e89ff;
+    border-radius:50%;
+    width:14rem;
+    height:14rem;
+    position:relative;
+    /*下面是什么*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
+  
+  .time{
+  margin-top:-14rem;
+    margin-left:2rem;
+    position:relative;
+  }
+  
+  .start{
+    margin-top:15rem;
+    background-color:#4da6ff; 
+    border:0; 
+    color:#0008ff; 
+   position:relative;
+    padding:0.5rem; 
+    width:6rem; 
+  
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+  }
+  
+  
+  .stop{
+    background-color:#ffcc14; 
+    border:0; 
+    color:#b87d00; 
+    position:relative;
+    padding:0.5rem; 
+    width:6rem; 
+  
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+  }
+  
+  
+  
+  
