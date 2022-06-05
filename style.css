@@ -479,10 +479,8 @@ font-size: 1.1rem;
     border: none;
     padding:0.5rem 1rem;
     border-radius:15px;
-  
     font-size: 1.1rem;
     color:#ffffff;
-  
    margin-left:8.5rem; 
     margin-top:2rem; 
   }
@@ -514,12 +512,9 @@ font-size: 1.1rem;
   
   .Talist{
     position: relative;
-   
     padding: 1rem;
-    background-color: #ffffff;
-  
+    background-color: #ffffff;  
     border-radius: 13px;
-  
     height:auto;
     width:30rem;
   }
@@ -527,16 +522,9 @@ font-size: 1.1rem;
     padding:0rem 1rem;
     list-style: none;
     position: relative;
-  
     justify-content: space-between;
-   
     margin: 1rem auto 1rem auto;
-    
     background-color: #ffffff;
-  
-    
-  
-  
     height:auto;
     width:28rem;
   
@@ -590,7 +578,7 @@ font-size: 1.1rem;
     margin-right: auto;
   
   }
-    /*This part may not shown Because There are some problems When I write "progess"code in js, I am so sorry */
+    /*This part is not shown Because There are some problems When I write "progess"code in js, I am so sorry, So I delete this part. */
   .music_program div{
     height: 100%;
     width: 0%;
@@ -695,7 +683,6 @@ font-size: 1.1rem;
     position:relative;
     padding:0.5rem; 
     width:6rem; 
-  
     font-size:14px;
     height : 50px;
     border-radius : 50px;
